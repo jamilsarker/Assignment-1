@@ -1,0 +1,168 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body global styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7ff;
+  color: #000;
+}
+header{
+    background-image: url(Hero-bg.png);
+    background-position:cover;
+
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+img{
+    border-radius: 30px;
+    border: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #1d13db;
+  font-weight: bold;
+}
+.header-btn {
+  background: #1b10dc;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 36px;
+}
+.hero span {
+  color: #4f46e5;
+}
+.hero-btn {
+  margin-top: 20px;
+  padding: 14px 32px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.small-btn {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+/* Showcase */
+.showcase {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+}
+.showcase .text { max-width: 350px; }
+.showcase img {
+  width: 280px;
+  border-radius: 8px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background: #e0e7ff;
+  padding: 40px 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+.stat h3 {
+  font-size: 28px;
+  color: #4540a9;
+}
+.stat p {
+  margin-top: 6px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding: 60px 20px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+.card {
+  background: #f0f4ff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* Focus */
+.focus {
+  text-align: center;
+  padding: 60px 20px;
+}
+.focus-img img {
+  margin-top: 20px;
+  width: 360px;
+  border-radius: 20px;
+  border: 40px;
+}
+
+/* Contact */
+.contact {
+  background: #f8faff;
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  
+}
+.contact form {
+  max-width: 420px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form-btn {
+  padding: 14px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  color: #4f46e5;
+  font-weight: bold;
+}
