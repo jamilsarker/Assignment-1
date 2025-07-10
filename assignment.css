@@ -145,9 +145,29 @@ img{
 
 /* Focus */
 .focus {
-  text-align: center;
-  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  min-height: 100vh;
+  padding: 20px;
 }
+.focus-box h6{
+    font-weight: lighter;
+    color: gray;
+}
+.focus-box {
+
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* fc */
 .focus-img img {
   margin-top: 20px;
   width: 360px;
@@ -191,8 +211,6 @@ form {
   margin: 40px auto;
   padding: 20px;
 }
-
-
 
 /* Footer */
 .footer {
