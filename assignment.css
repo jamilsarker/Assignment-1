@@ -13,7 +13,7 @@ body {
 }
 main{
     width: 1140px;
-    margin: auto;
+    margin:0 auto;
 }
 header{
     background-image: url(Hero-bg.png);
@@ -27,6 +27,7 @@ header{
 }
 .hope{
     display: flex;
+    gap: 10px;
 
 }
 .hope p{
@@ -40,8 +41,8 @@ header{
   align-items: center;
   padding: 20px 40px;
 }
-img{
-    border-radius: 30px;
+.image{
+    border-radius:20px;
     border: 20px;
 }
 
@@ -97,11 +98,11 @@ img{
 /* Showcase */
 .showcase {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 60px 20px;
+  
 }
-.showcase .text { max-width: 350px; }
+
 .showcase img {
   width: 280px;
   border-radius: 8px;
@@ -110,11 +111,11 @@ img{
 /* Stats */
 .stats {
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   gap: 60px;
   background: #e0e7ff;
   padding: 40px 20px;
-  margin: 30px;
+  margin-top: 100px;
   border-radius: 10px;
 }
 .stat h3 {
@@ -126,14 +127,15 @@ img{
 }
 
 /* Testimonials */
-.testimonials {
+.testimonials{
+ margin-top: 100px;
+}
+.testimonials h2{
   text-align: center;
-  padding: 60px 20px;
 }
 .cards {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
   margin-top: 24px;
 }
 .card {
@@ -148,20 +150,19 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   
-  min-height: 100vh;
-  padding: 20px;
 }
 .focus-box h6{
     font-weight: lighter;
     color: gray;
+    margin-top: 20px;
 }
 .focus-box {
 
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  max-width: 600px;
   width: 100%;
   text-align: center;
 }
@@ -170,7 +171,7 @@ img{
 /* fc */
 .focus-img img {
   margin-top: 20px;
-  width: 360px;
+  width: 600px;
   border-radius: 20px;
   border: 40px;
 }
@@ -179,15 +180,16 @@ img{
 .contact {
   background: #f8faff;
   padding: 60px 20px;
-  text-align: center;
   display: flex;
+  align-items: center;
   margin-top: 50px;
+  
   
 }
 .contact h1{
     margin-top: 110px;
     margin-left: 220px;
-    font-size:xx-large;
+    font-size:97px;
     font-weight:bold;
 }
 .contact form {
@@ -212,6 +214,7 @@ form {
   padding: 20px;
 }
 
+
 /* Footer */
 .footer {
   text-align: center;
@@ -219,4 +222,13 @@ form {
   background: #fff;
   color: gray;
   font-weight: lighter;
+  margin: auto;
+  
+}
+.footer ul{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  
 }
